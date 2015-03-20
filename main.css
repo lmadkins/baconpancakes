@@ -1,0 +1,117 @@
+body {
+  background-image: url("img/BG-2.jpg");
+  margin-left:0;
+  margin-right:0;
+}
+
+header {
+  width: 90%;
+  height: 130px;
+  overflow: scroll;
+  position: fixed;
+  color: white;
+  opacity: .95;
+  margin-left:5%;
+}
+
+h1{
+  position: fixed;
+  margin-left: 18%;
+  margin-top: 2%;
+}
+
+.img-logo {
+  width:100px;
+  height: 100px;
+  float: left;
+  padding: 1%;
+  margin-left: 3%;
+  margin-top: 1%;
+}
+
+nav{
+  position: fixed;
+  top: 95px;
+  width: 80%;
+  opacity: .9;
+}
+
+.list-nav {
+  margin-left: 10.5%;
+}
+
+.li-nav {
+  display: inline-block;
+  margin-right: 7%;
+  margin-left: 7%;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  text-style: none;
+}
+
+.seperator {
+  height: 130px;
+}
+
+main {
+  overflow: auto;
+  width: 90%;
+  margin-left: 5%;
+}
+
+#about {
+  width: 100%;
+  height: 600px;
+  opacity: .9;
+  background-color: white;
+}
+
+#contact {
+  width: 100%;
+  height: 600px;
+  opacity: .9;
+  background-color: white;
+}
+
+#feedback {
+  width: 100%;
+  height: 600px;
+  opacity: .9;
+  background-color: white;
+}
+
+#links {
+  width: 100%;
+  height: 600px;
+  opacity: .9;
+  background-color: white;
+}
+
+footer{
+  width: 80%;
+  margin-left: 5%;
+  opacity: .9;
+  background-color: white;
+}
+
+h6 {
+  float: left;
+}
+
+.list-social {
+  display: inline-block;
+  list-style: none;
+  float: right;
+}
+
+.li-social {
+  display: inline-block;
+}
+
+.img-social {
+  width: 20px;
+  height: 20px;
+}
