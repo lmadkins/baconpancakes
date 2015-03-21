@@ -1,93 +1,161 @@
 body {
-  background-image: url("img/BG-2.jpg");
+  background-image: url("img/bg-pattern2.jpg");
   margin-left:0;
   margin-right:0;
 }
 
 header {
  background-color: white;
-  width: 90%;
+  width: 80%;
   height: 130px;
-  overflow: scroll;
+  overflow: auto;
   position: fixed;
+  z-index: 1;
   color: black;
-  opacity: .85;
-  margin-left:5%;
+  opacity: .75;
+  margin-left: 10%;
+
 }
 
-h1{
+.img-logo {
+  width:120px;
+  height: 133px;
+  float: left;
   position: fixed;
-  margin-left: 18%;
+  padding: -1%;
+  margin-left: 2%;
+  z-index: 1;
+}
+
+
+h1{
+ position: fixed;
+  overflow: auto;
+  letter-spacing: 1px;
+  margin-left: 16%;
   margin-top: 2%;
   color: black;
 }
 
-.img-logo {
-  width:130px;
-  height: 143px;
-  float: left;
-  padding: 1%;
-  margin-left: 2%;
-  margin-top: -1%;
+h2{
+ text-align: center;
+ letter-spacing: 1.5px;
+ font-size: 1.4em;
+  margin-top: 2%;
+  color: black;
+}
+
+p {
+ padding: 1%;
 }
 
 nav{
   position: fixed;
+  overflow: auto;
   top: 95px;
   width: 80%;
   opacity: .9;
 }
 
-.list-nav {
-  margin-left: 10.5%;
-}
+ .list-nav {
+   margin-left: 10.5%;
+ }
 
-.li-nav {
-  display: inline-block;
-  margin-right: 7%;
-  margin-left: 7%;
-}
+ .li-nav {
+   display: inline-block;
+   margin-right: 7%;
+   margin-left: 7%;
+ }
 
-.nav-link {
-  text-decoration: none;
-  color: black;
-  text-style: none;
-}
+ .nav-link {
+   text-decoration: none;
+   color: black;
+   text-style: none;
+ }
+
 
 .seperator {
   height: 130px;
 }
 
+
 main {
-  overflow: auto;
-  width: 80%;
-  margin-left: 10%;
+
+  width: 90%;
+  margin-left: 5%;
 }
+
+table {
+  width: 100%;
+  overflow: auto;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 40px;
+
+}
+
+table, td, th {
+ border: 1px solid gray;
+}
+
+  .massage-type {
+   letter-spacing: 1.5px;
+   height: 50px;
+
+  }
+
+  .images {
+   text-align: center;
+    height: 175px;
+  }
+
+  .price {
+   letter-spacing: 1px;
+   height: 30px;
+   text-align: center;
+  }
+
+  .massage-description {
+   font-style: italic;
+   height: 125px;
+   margin-bottom: 50px;
+   text-align: center;
+
+
+  }
 
 #about {
   width: 100%;
-  height: 600px;
-  opacity: .9;
+  height: auto;
+  margin-top: 1%;
+  opacity: .8;
+  padding: 1%;
   background-color: white;
 }
 
 #contact {
   width: 100%;
   height: 600px;
-  opacity: .9;
+  opacity: .8;
+  margin-top: 1%;
+  padding: 1%;
   background-color: white;
 }
 
 #feedback {
   width: 100%;
   height: 600px;
-  opacity: .9;
+  margin-top: 1%;
+  padding: 1%;
+  opacity: .8;
   background-color: white;
 }
 
 #links {
   width: 100%;
   height: 600px;
+  margin-top: 1%;
+  padding: 1%;
   opacity: .9;
   background-color: white;
 }
@@ -101,6 +169,7 @@ footer{
 
 h6 {
   float: left;
+  font-size: .9em;
 }
 
 .list-social {
