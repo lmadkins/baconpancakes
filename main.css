@@ -186,3 +186,12 @@ h6 {
   width: 20px;
   height: 20px;
 }
+
+.list-contact {
+  float: left;
+}
+
+.map {
+  float: right;
+  padding-right: 100px;
+}
