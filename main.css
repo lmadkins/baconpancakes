@@ -32,6 +32,7 @@ h1{
  position: fixed;
   overflow: auto;
   letter-spacing: 1px;
+  font-variant: small-caps;
   margin-left: 16%;
   margin-top: 2%;
   color: black;
@@ -202,4 +203,5 @@ h6 {
 
 .list-feedback {
   float: left;
+  font-style: italic;
 }
