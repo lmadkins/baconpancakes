@@ -45,8 +45,12 @@ h2{
   color: black;
 }
 
+
 p {
  padding: 1%;
+ font-style: italic;
+ text-align: center;
+ font-size: 15px;
 }
 
 nav{
