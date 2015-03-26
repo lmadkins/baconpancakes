@@ -85,6 +85,12 @@ nav{
   height: 130px;
 }
 
+.clearspacer {
+  height: 25px;
+  width: 30%;
+
+}
+
 
 main {
 
@@ -93,7 +99,7 @@ main {
 }
 
 table {
-  width: 100%;
+  width: 99%;
   overflow: auto;
   display: inline-block;
   margin-left: 5px;
