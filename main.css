@@ -6,33 +6,35 @@ body {
 
 header {
  background-color: white;
-  width: 80%;
-  height: 140px;
-  overflow: auto;
-  position: fixed;
-  margin-left: 10%;
-  margin-right: 10%;
-  z-index: 1;
-  color: black;
-  opacity: .8;
-  top: 0;
-
+ width: 80%;
+ height: 140px;
+ overflow: auto;
+ position: fixed;
+ margin-left: 10%;
+ margin-right: 10%;
+ z-index: 1;
+ color: black;
+ opacity: .8;
+ top: 0;
+ display: flex;
+ /*justify-content: space-around;*/
 }
 
 .img-logo {
   width:120px;
   height: 133px;
   float: left;
-  position: fixed;
+  position: absolute;
   padding: -1%;
   padding-right: 3%;
   margin-left: 2%;
+  margin-right: 2%;
   z-index: 1;
 }
 
 
-h1{
- position: fixed;
+h1 {
+  position: fixed;
   overflow: auto;
   letter-spacing: 1px;
   padding-right: 5%;
@@ -42,12 +44,12 @@ h1{
   color: black;
 }
 
-h2{
+h2 {
  text-align: center;
  letter-spacing: 1.5px;
  font-size: 1.4em;
-  margin-top: 2%;
-  color: black;
+ margin-top: 2%;
+ color: black;
 }
 
 
@@ -68,7 +70,7 @@ nav{
 }
 
  .list-nav {
-   margin-left: 10.5%;
+  margin-left: 10.5%;
  }
 
  .li-nav {
@@ -91,12 +93,10 @@ nav{
 .clearspacer {
   height: 150px;
   width: 30%;
-
 }
 
 
 main {
-
   width: 90%;
   margin-left: 5%;
 }
@@ -104,7 +104,8 @@ main {
 table {
   width: 99%;
   overflow: auto;
-  display: inline-block;
+  display: flex;
+  justify-content: space-around;
   margin-left: 5px;
   margin-right: 5px;
   margin-bottom: 40px;
@@ -178,7 +179,7 @@ table, td, th {
   overflow: auto;
 }
 
-footer{
+footer {
   width: 80%;
   margin-left: 5%;
   opacity: .9;
